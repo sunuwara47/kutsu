@@ -1,0 +1,147 @@
+{
+  "cards": [
+    {
+      "id": "1",
+      "brand": "361",
+      "categories": "Running",
+      "product_name": "361 Running",
+      "product_price": 20000,
+      "stock": "in stock",
+      "img": "../images/361.jpg"
+    },
+    {
+      "id": "2",
+      "brand": "Adidas",
+      "categories": "Casuals",
+      "product_name": "Adidas Yeezy",
+      "product_price": 20000,
+      "stock": "in stock",
+      "img": "../images/Addidas-yeezy.jpg"
+    },
+    {
+      "id": "3",
+      "brand": "Nike",
+      "categories": "Sports",
+      "product_name": "Nike Air Monarch",
+      "product_price": 20000,
+      "stock": "in stock",
+      "img": "../images/air-monarch-iv-lifestyle-gym-shoe.jpg"
+    },
+    {
+      "id": "4",
+      "brand": "Converse",
+      "categories": "Casuals",
+      "product_name": "Converse",
+      "product_price": 20000,
+      "stock": "in stock",
+      "img": "../images/converse.jpg"
+    },
+    {
+      "id": "5",
+      "brand": "Nike",
+      "categories": "Running",
+      "product_name": "Ispa Air Max",
+      "product_price": 20000,
+      "stock": "in stock",
+      "img": "../images/ispa-air-max.jpg"
+    },
+    {
+      "id": "6",
+      "brand": "Nike",
+      "categories": "Sneakers",
+      "product_name": "Ispa Joyride",
+      "product_price": 20000,
+      "stock": "in stock",
+      "img": "../images/ispa-joyride-envelope-shoe.jpg"
+    },
+    {
+      "id": "7",
+      "brand": "nike",
+      "categories": "Running",
+      "product_name": "Nike React Element",
+      "product_price": 20000,
+      "stock": "in stock",
+      "img": "../images/nike-react-element.jpg"
+    },
+    {
+      "id": "8",
+      "brand": "Nike",
+      "categories": "Sports",
+      "product_name": "Hero Futsal Shoes",
+      "product_price": 20000,
+      "stock": "in stock",
+      "img": "../images/nike_hero_futsal_shoes.jpg"
+    },
+    {
+      "id": "9",
+      "brand": "Nike",
+      "categories": "Sneakers",
+      "product_name": "Nike Air Force",
+      "product_price": 20000,
+      "stock": "in stock",
+      "img": "../images/nike-air-force.jpg"
+    },
+    {
+      "id": "10",
+      "brand": "Red Wings",
+      "categories": "Boots",
+      "product_name": "Red Wings",
+      "product_price": 20000,
+      "stock": "in stock",
+      "img": "../images/Red_Wings.jpg"
+    },
+    {
+      "id": "11",
+      "brand": "Vans",
+      "categories": "Sneakers",
+      "product_name": "Vans",
+      "product_price": 20000,
+      "stock": "in stock",
+      "img": "../images/Vans-classic-clip-on.jpg"
+    },
+    {
+      "id": "12",
+      "brand": "Vans",
+      "categories": "Sneakers",
+      "product_name": "Vans Main",
+      "product_price": 20000,
+      "stock": "in stock",
+      "img": "../images/Vans-main-thumb.jpg"
+    },
+    {
+      "id": "13",
+      "brand": "Adidas",
+      "categories": "Casuals",
+      "product_name": "Yeezy Wave",
+      "product_price": 20000,
+      "stock": "in stock",
+      "img": "../images/yeezy-wave-runner.jpg"
+    },
+    {
+      "id": "14",
+      "brand": "Nike",
+      "categories": "Sports",
+      "product_name": "Nike Running",
+      "product_price": 20000,
+      "stock": "in stock",
+      "img": "../images/nike-running-shoes.jpg"
+    },
+    {
+      "id": "15",
+      "brand": "Nike",
+      "categories": "Casuals",
+      "product_name": "Nike Air Max",
+      "product_price": 20000,
+      "stock": "in stock",
+      "img": "../images/nike-air-max.jpg"
+    }
+  ],
+  "contact": [
+    {
+      "name": "Sanjiv Sharma",
+      "email": "cooldude69@gmail.com",
+      "message": "Hello World",
+      "id": 1
+    }
+  ]
+}

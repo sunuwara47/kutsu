@@ -1,0 +1,357 @@
+@import url('https://fonts.googleapis.com/css?family=Orbitron&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header {
+    background-color: #659dbd;
+    color: white;
+}
+
+.logo {
+    font-family: 'Orbitron', sans-serif;
+}
+
+.logo, .nav-ul, .nav-li {
+    display: inline-block;
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+}
+
+li, .search {
+    font-size: 20px;
+    width: 150px;
+    padding: 10px;
+}
+
+.header-link {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-li {
+    position: relative;
+}
+
+li:hover {
+    background-color: #daad86;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #659dbd;
+    width: 100%;
+    display: none;
+    z-index: 1;
+}
+
+.nav-li:hover .dropdown {
+    display: block;
+}
+
+.search {
+    width: 300px;
+    height: 35px;
+    border: none;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 10px;
+    padding-left: 20px;
+    font-size: 16px;
+    border-radius: 20px;
+}
+
+/* Main Page */
+.slider-img {
+    width: 100%;
+    height: 100%;
+}
+
+.slider-box {
+    box-shadow: 0.5px 0.5px 1px 1px grey;
+}
+
+.slick-slider {
+    height: 450px;
+    position: absolute;
+}
+
+.slides   {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.slides .slick-prev,.slides .slick-next {
+    position: absolute;
+    top: 50%;
+    z-index: 1;
+}
+
+.slides .slick-prev {
+    left: 0;
+}
+
+.slides .slick-next {
+    right: 0;
+}
+
+.slides button {
+    margin-top: 0;
+    box-shadow: none;
+}
+
+.slides .slick-next:before, .slides .slick-prev:before {
+    color: #659dbd;
+}
+
+img {
+    width: 300px;
+    height: 300px;
+}
+
+.cards {
+    margin: 40px;
+    opacity: 0.8;
+    float: left;
+}
+
+.cards:hover {
+    opacity: 1;
+    box-shadow: 0 0 1px 1px lightgray;
+}
+
+.product_des {
+    border: 1px solid #dfdcdc;
+    width: auto;
+    padding: 7px;
+    color: black;
+}
+
+.stocks {
+    color: mediumseagreen;
+}
+
+.clr {
+    clear: both;
+}
+
+/* Pop Up */
+.popup {
+    width: 500px;
+    height: 300px;
+    color: tomato;
+    background-color: floralwhite;
+    border-radius: 20px;
+    box-shadow: 0 0 7px 1px #659dbd;
+    font-size: 40px;
+    position: fixed;
+    top: 24%;
+    left: 36%;
+    padding-left: 1%;
+    padding-top: 10%;
+}
+
+
+.check {
+    color: forestgreen;
+    display: inline-block;
+}
+
+.remove {
+    position: absolute;
+    right: 12px;
+    top: 0;
+    cursor: pointer;
+}
+
+.popup h3 {
+    display: inline-block;
+}
+
+/* Footer Part */
+footer {
+    background-color: #659dbd;
+    color: white;
+    padding: 20px;
+    font-size: 20px;
+}
+
+/* About Section */
+#about {
+    max-width: 30%;
+}
+
+/* Contact Info */
+.social-links {
+    font-size: 30px;
+    margin: 10px;
+}
+
+.social-links:hover {
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+/* Contact Form */
+
+form {
+    margin-top: 20px;
+}
+
+input {
+    display: block;
+    padding: 7px;
+    width: 100%;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+#message {
+    width: 100%;
+    font-size: 18px;
+    padding: 8px;
+    height: 100px;
+}
+
+button {
+    color: white;
+    background-color: #38779b;
+    border-radius: 7px;
+    border: none;
+    width: 100%;
+    text-align: center;
+    margin-top: 5px;
+    padding: 5px;
+    font-size: 24px;
+    cursor: pointer;
+    box-shadow:  1px 1px 2px 0 grey;
+}
+
+button:hover {
+    background-color: #c58422;
+    color: white;
+}
+
+#submit {
+    margin: 10px;
+}
+
+.footer-link {
+    font-size: 10px;
+}
+
+.footer-link:hover {
+    color: white;
+}
+
+.copyright {
+    text-align: center;
+}
+
+.tos,.policies{
+    background-color: #659dbd;
+    color: white;
+    text-align: justify;
+    padding: 10px;
+    border: 2px solid white;
+}
+
+.tos h1, .policies h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+
+/* For Tablets */
+@media screen and (max-width: 768px) {
+
+    .header {
+        padding-bottom: 10px;
+    }
+
+    .header, .logo, ul, .search {
+        margin-bottom: 10px;
+        display: block;
+        width: 100%;
+    }
+
+    li {
+        width: 16%;
+        margin: auto;
+    }
+
+    .nav-li:hover .dropdown {
+        display: none;
+    }
+
+    .popup {
+        width: 100%;
+        height: 10%;
+        top: 0;
+        left: 0;
+        font-size: 30px;
+    }
+    
+}
+
+/* For Mobile Phones */
+@media screen and (max-width: 630px) {
+
+    li ul,li {
+        padding: 0;
+        padding-bottom:10px;
+        padding-top:10px;
+        display: block;
+        width: 100%;
+    }
+
+    .cards {
+        margin: 0;
+        margin: 10px;
+    }
+
+    .footer {
+        padding: 0;
+        display: block;
+        text-align: center;
+    }
+
+    .footer section {
+        display: block;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    #about {
+        max-width: 100%;
+        text-align: justify;
+    }
+
+    input, #message {
+        width: 94%;
+    }
+
+    #submit {
+        width: 90%;
+        margin: 13px;
+    }
+
+    .popup {
+        font-size: 24px;
+    }
+
+}
